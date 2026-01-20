@@ -1,13 +1,15 @@
 :root  > * {
+    /*website schemes*/
   --md-primary-fg-color:        #830000;
   --md-primary-fg-color--light: #ECB7B7;
   --md-primary-fg-color--dark:  #90030C;
+    background-color: #1a1a1b;
 
   /*font schemes*/
   --md-text-font: "Telex";
-  --md-default-fg-color: #d9d5e4;
-  --md-default-fg-color--light: #bfbbc9;
-  --md-default-fg-color--lighter: #bfbbc9;
+  --md-default-fg-color: #e3e4da;
+  --md-default-fg-color--light: #c9c5bb;
+  --md-default-fg-color--lighter: #c9c7bb;
 }
 @font-face {
   font-family: "Telex";

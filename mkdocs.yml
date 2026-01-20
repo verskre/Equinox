@@ -1,8 +1,8 @@
 site_name: Equinox
 nav:
   - Home: index.md
-  - About: about.md
   - Guide:
+    - About: guide/about.md
     - Installation: guide/installation.md
     - Workflow: guide/workflow.md
   - Downloads: downloads.md
