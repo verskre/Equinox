@@ -17,7 +17,7 @@ theme:
   logo: assets/logo.png
 
 extra:
-  homepage: https://example.com
+  homepage: https://verskre.github.io/Equinox/
 
 extra_css:
   - stylesheets/extra.css

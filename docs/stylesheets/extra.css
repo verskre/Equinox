@@ -3,7 +3,6 @@
   --md-primary-fg-color:        #830000;
   --md-primary-fg-color--light: #ECB7B7;
   --md-primary-fg-color--dark:  #90030C;
-  --background-color: #1a1a1b;
 
   /*font schemes*/
   --md-text-font: "Telex";
@@ -11,6 +10,12 @@
   --md-default-fg-color--light: #c9c5bb;
   --md-default-fg-color--lighter: #c9c7bb;
 }
+
+[data-md-color-scheme="slate"] {
+  /*--md-hue: 210;*/
+    background-color: #1f1f1f
+}
+
 @font-face {
   font-family: "Telex";
   /*src:  url("../font/Telex/Telex-Regular.ttf") format('truetype');*/
