@@ -13,8 +13,16 @@ nav:
     - Grading: guide/grading.md
     - Output: guide/output.md
     - Exporting: guide/export.md
+  - Effects:
+    - Cards: effects/cards.md
+    - Generators: effects/generators.md
+    - Video filters: effects/video.md
+    - Post: effects/post.md
+    - Special FX: effects/special.md
+    - Triggers: effects/triggers.md
   - Downloads: downloads.md
   - Release notes: changelog.md
+  - Contact: contact.md
 
 theme: 
   name: material
