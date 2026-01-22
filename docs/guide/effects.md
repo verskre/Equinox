@@ -8,6 +8,9 @@
 
 <p>To add an effect, navigate to the effects library (bottom-right panel), and drag your desired effect to the effects chain. The effect will be immediately applied, and you can customize it by clicking on the chevron to drop down its parameters.</p>
 
+### Controls
+* __Dry/wet__ - Adjust D/W
+* __Lock__ - Preserve the effect as-is, disabling editing and deletion
 ### Effects library
 
 All effects are stored in the '/effects' directory. Each effect has its cooking set to false, as to not consume resources. Effect cooking is automatically turned on once applied to an effects chain.
