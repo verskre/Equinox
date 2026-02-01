@@ -4,7 +4,15 @@
 
 Equinox implements a five-stage pipeline to generate real-time visual output. Equinox utilises Derivative's built-in Scene Changer from the pallette to handle scenes. All scenes are stored in the '/scenes' directory. The scene's output is routed to the Scene Changer at the start of the pipeline.<br>
 
-![diagram](../assets/Workflow1.png)
+``` mermaid
+graph LR
+  A[Scene] --> B;
+  B[Compositing] --> C;
+  C[Master FX chain] --> D;
+  D[Grading] --> E;
+  E[Output];
+```
+
 
 ### FX Stages
 &nbsp;1. __Scene__ - Final video corrections and color grading<br>

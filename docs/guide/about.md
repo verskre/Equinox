@@ -5,7 +5,7 @@ Equinox is still within the alpha development stage.<br>
 
 
 ![equinox](../assets/VJ-1.png)
-Equinox, alpha v1.0.0.<br>
+<small>Equinox, alpha v1.0.0.</small>
 
 ## Features
 * __Master effects chain__ - Equinox has a library of effects that can be inserted into the master effects chain. These effects can be rearranged and edited.

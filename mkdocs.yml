@@ -1,4 +1,20 @@
 site_name: Equinox
+
+theme: 
+  name: material
+  palette:
+    scheme: slate
+    primary: custom
+    accent: custom
+  features:
+    - navigation.footer
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+
+  logo: assets/logo.png
+
 nav:
   - Home: index.md
   - About: guide/about.md
@@ -7,7 +23,7 @@ nav:
     - Workflow: guide/workflow.md
     - MIDI & Devices: guide/devices.md
     - Scenes: guide/scenes.md
-    - Master effects chain: guide/effects.md
+    - Effects: guide/effects.md
     - Compositing: guide/compositing.md
     - Macro system: guide/macros.md
     - Grading: guide/grading.md
@@ -24,20 +40,27 @@ nav:
   - Release notes: changelog.md
   - Contact: contact.md
 
-theme: 
-  name: material
-  palette:
-    scheme: slate
-    primary: custom
-
-  logo: assets/logo.png
-
 markdown_extensions:
   - attr_list
   - md_in_html
-
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+          
 extra:
-  homepage: https://verskre.github.io/Equinox/
+  homepage: https://unami-fx.github.io/Equinox/
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/pareidolia.collective/
+    - icon: fontawesome/brands/discord
+      link: https://example.com
+
+copyright: Copyright © 2026 PAREIDOLIA
 
 extra_css:
   - stylesheets/extra.css

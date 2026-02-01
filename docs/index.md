@@ -32,4 +32,5 @@ Welcome to the manual for Equinox, a multimedia VJ suite for TouchDesigner.
 
 Email: jjwu180310@gmail.com<br>
 Discord: u.nami<br>
+[Instagram](https://www.instagram.com/unami.fx/)<br>
 [Discord server](https://discord.gg/WBNr8h6ac3)<br>

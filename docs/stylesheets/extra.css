@@ -1,8 +1,6 @@
 :root  > * {
     /*website schemes*/
   --md-primary-fg-color:        #830000;
-  --md-primary-fg-color--light: #ECB7B7;
-  --md-primary-fg-color--dark:  #90030C;
 
   /*font schemes*/
   /*--md-text-font: "Telex";*/
@@ -12,8 +10,7 @@
 }
 
 [data-md-color-scheme="slate"] {
-  /*--md-hue: 210;*/
-    background-color: rgb(20, 20, 22)
+    --md-default-bg-color: rgb(20, 20, 22);
 }
 
 /* Normal links */
@@ -25,6 +22,10 @@
   color: #e3e4da;          /* normal text */
 }
 
+
+.md-sidebar .md-nav__link--active {
+  color: #f10000 !important;
+}
 /*
 @font-face {
   font-family: "Telex";
