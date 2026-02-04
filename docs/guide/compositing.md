@@ -13,7 +13,7 @@ A layer is a collection of compiled clips, where each layer plays one clip. Laye
 
 ## Adding clips
 
-![img](/assets/guide/insert_clip.gif)<br>
+![img](../assets/guide/insert_clip.gif)<br>
 
 To add clips, simply drag a file from a file explorer into an empty clip slot. To remove the clip, hover over the clip slot and click the "X" on the top-right.
 
