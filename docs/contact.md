@@ -1,5 +1,6 @@
-# Contact & enquires:
+## Contact & enquires:
 
 Email: jjwu180310@gmail.com<br>
-Discord: jayy.zx<br>
-Discord server coming soon. Stay tuned!
+u.nami on Discord<br>
+[Instagram](https://www.instagram.com/unami.fx/)<br>
+[Discord server](https://discord.gg/WBNr8h6ac3)<br>
