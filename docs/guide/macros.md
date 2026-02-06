@@ -4,15 +4,17 @@
 
 ### Triggers
 
-Triggers are macros that have an on/off state. Therr are two types of triggers: momentary and toggle.
+Triggers are macros that have an on/off state. There are two types of triggers: momentary and toggle.
 
 ### Knobs & Sliders
 
-Knobs and sliders are used for fine control.
+Knobs and sliders are used for fine control of parameters.
 
 ### Adding macro exports
 
-To add a parameter for a macro to export to, drag the parameter onto the macro.
+To add a parameter for a macro to export to, drag the parameter onto the macro. The macro will export its signal to the parameter.
+
+To configure a macro's exports, right-click on the macro and select 'View exports'. A window will open, showing all the macro's exports. You can enable, disable or delete them.
 
 ### Configuring macros
 

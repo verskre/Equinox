@@ -10,4 +10,4 @@ Select 'Import scene .tox'. From the opened file explorer, select your scene. Yo
 
 ### Deleting scenes
 
-Navigate to the explorer and hover over the scene you wish to delete. Click on the 'X' button on the right side of the container
+Navigate to the explorer and hover over the scene you wish to delete. Click on the 'X' button on the right side of the container.

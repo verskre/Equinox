@@ -15,16 +15,28 @@ Effects are post-production tools that are designed to manipulate visuals in rea
 
 ### Effects library
 
+![img](../assets/guide/effects-library.png)
+
+The effects library is a collection of effects that can be applied to media. It is located on the right side of the bottom deck of the VJ.
+
+### Adding effects
+
 <p>To add an effect, navigate to the effects library (bottom-right panel), and drag your desired effect to the effects chain. The effect will be immediately applied, and you can customize it by clicking on the chevron to drop down its parameters.</p>
 
 ### Controls
 
 ![img](../assets/guide/effect.png)<br>
 
-<p>Each effect has its own dry/wet slider and alpha gate. The dry/wet slider determines the ratio between the dry (unprocessed) and wet (processed) signal. The alpha gate also determines if the effect is active or not. Turning the alpha gate off bypasses the effect, meaning it will not use any resources during runtime.</p>
+From left to right:
+
+- __Dry/wet slider__ - Adjusts the ratio between the dry (unprocessed) and wet (processed) signal.<br>
+- __Options__ - Open options for effect<br>
+- __Lock__ - Disables editing of the effect.<br>
+- __Eye__ - Toggle whether the effect is active. Turn off to disable cooking.<br>
+- __X__ - Delete the effect from the FX chain.<br>
 
 ### Adding custom effects
 
 <p>All effects are stored in the '/effects' directory as Components. Each effect has its cooking set to false, as to not consume resources in the background. Effect cooking is automatically turned on once applied to an effects chain.</p>
 
-<p>To be recognised as an effect, it must have the operator tag 'effect', and the effect's input and output must be of a TOP type. You can copy an effects template from the '/templates/' folder. Add your custom effects to the '/effects' directory.</p>
+<p>To be recognised as an effect, it must have the operator tag 'effect', and the effect's input and output must be of a TOP type. You can copy an effects template from the '/templates/' folder.</p>
