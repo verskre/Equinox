@@ -29,12 +29,9 @@ nav:
     - Output: guide/output.md
     - Exports: guide/export.md
   - Effects:
-    - Cards: effects/cards.md
-    - Generators: effects/generators.md
-    - Video filters: effects/video.md
-    - Post: effects/post.md
-    - Special FX: effects/special.md
-    - Triggers: effects/triggers.md
+    - Filters: effects/Filters.md
+    - Post: effects/Post.md
+    - Stylize: effects/Stylize.md
   - Downloads: downloads.md
   - Release notes: changelog.md
   - Contact: contact.md
